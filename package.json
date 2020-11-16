@@ -1,0 +1,20 @@
+{
+  "name": "express-typescript-bootstrap",
+  "version": "1.0.0",
+  "description": "TypeScript - Express Exercise",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EunsangJeon/express-typescript-bootstrap.git"
+  },
+  "author": "Eunsang",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
